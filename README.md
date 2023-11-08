@@ -3,7 +3,10 @@
 ### Technical details:
 
 - Use Task.WhenAll
-- Use IHttpClientFactory 
+- Use IHttpClientFactory
+- Use structure built-in logging
+- Use Health Checks
+- Use Token Cancelation 
 - Use Polly policies
 - Use UnitTests with NSubstitute
 - Entity framework Core: Migrations for managing database schema changes, N + 1 Problem, Concurrency and Improved performance and reduced memory usage
